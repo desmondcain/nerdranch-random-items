@@ -10,7 +10,7 @@
 		D24D60921903136B00AFB683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24D60911903136B00AFB683 /* Foundation.framework */; };
 		D24D60951903136B00AFB683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D60941903136B00AFB683 /* main.m */; };
 		D24D60991903136B00AFB683 /* RandomItems.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D24D60981903136B00AFB683 /* RandomItems.1 */; };
-		D24D60A1190449D200AFB683 /* BNRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D60A0190449D200AFB683 /* BNRObject.m */; };
+		D24D60A41904899D00AFB683 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D60A31904899D00AFB683 /* BNRItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +32,8 @@
 		D24D60941903136B00AFB683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D24D60971903136B00AFB683 /* RandomItems-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomItems-Prefix.pch"; sourceTree = "<group>"; };
 		D24D60981903136B00AFB683 /* RandomItems.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomItems.1; sourceTree = "<group>"; };
-		D24D609F190449D200AFB683 /* BNRObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRObject.h; sourceTree = "<group>"; };
-		D24D60A0190449D200AFB683 /* BNRObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRObject.m; sourceTree = "<group>"; };
+		D24D60A21904899D00AFB683 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		D24D60A31904899D00AFB683 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				D24D60941903136B00AFB683 /* main.m */,
-				D24D609F190449D200AFB683 /* BNRObject.h */,
-				D24D60A0190449D200AFB683 /* BNRObject.m */,
 				D24D60981903136B00AFB683 /* RandomItems.1 */,
 				D24D60961903136B00AFB683 /* Supporting Files */,
+				D24D60A21904899D00AFB683 /* BNRItem.h */,
+				D24D60A31904899D00AFB683 /* BNRItem.m */,
 			);
 			path = RandomItems;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24D60951903136B00AFB683 /* main.m in Sources */,
-				D24D60A1190449D200AFB683 /* BNRObject.m in Sources */,
+				D24D60A41904899D00AFB683 /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
