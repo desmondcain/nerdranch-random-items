@@ -78,9 +78,9 @@
 			children = (
 				D24D60941903136B00AFB683 /* main.m */,
 				D24D60981903136B00AFB683 /* RandomItems.1 */,
-				D24D60961903136B00AFB683 /* Supporting Files */,
 				D24D60A21904899D00AFB683 /* BNRItem.h */,
 				D24D60A31904899D00AFB683 /* BNRItem.m */,
+				D24D60961903136B00AFB683 /* Supporting Files */,
 			);
 			path = RandomItems;
 			sourceTree = "<group>";
